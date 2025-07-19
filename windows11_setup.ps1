@@ -57,11 +57,3 @@ foreach ($pkg in $packages) {
 }
 
 Write-Host "All installations complete!" -ForegroundColor Green
-
-# Show versions
-Write-Host "InInstalled versions:" -ForegroundColor Cyan
-git --version
-java --version
-mvn -version
-gradle -version
-python --version
